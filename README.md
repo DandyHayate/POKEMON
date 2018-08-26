@@ -1,4 +1,5 @@
-# PIKACHU BOTS
+## PIKACHU BOTS
+# SEMUA AKAN MATI PADA WAKTUNYA
 - install module
 ```
 pkg install python
