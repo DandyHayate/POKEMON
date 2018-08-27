@@ -71,7 +71,7 @@ def bot(op):
             return
         if op.type == 5:
             line.findAndAddContactsByMid(op.param1)
-            line.sendMessage(op.param1, "Thanks for add\nMy account")
+            line.sendMessage(op.param1, "Thanks for You\n\nspecial from me:")
             line.sendContact(op.param1, 'u07abdfb9d1644326c65c13f9727b10d7')
         if op.type == 13:
             try:
