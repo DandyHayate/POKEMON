@@ -198,7 +198,42 @@ def bot(op):
                             line.sendMessage(msg.to, respon + kontak.displayName)
                         if "assalamualaikum" in text.lower():
                             kontak = line.getContact(msg._from)
-                            response = ("waalaikumsalam wr.wb kemana aja baru keliatan","waalaikumsalam,kirain siapa yg salam ternyata kamu ","waalaikumsalam,silahkan masuk ","waalaikumsalam,silahkan duduk ","waalaikumsalam,dari mana aja kok baru nongol ")
+                            response = ("waalaikumsalam wr.wb kemana aja baru keliatan","waalaikumsalam,aihh kirain siapa yg salam ternyata kamu ","waalaikumsalam,silahkan masuk ","waalaikumsalam,silahkan duduk ","waalaikumsalam,dari mana aja kok baru nongol ")
+                            respon = random.choice(response)
+                            line.sendMessage(msg.to, respon + kontak.displayName)
+                        if "mojok" in text.lower():
+                            kontak = line.getContact(msg._from)
+                            response = ("ayok mojok ","mau mojok kapan ","kalo mojok ajak2 dong ","mojok sama siapa ","mojok aja sana ditempat gelap ")
+                            respon = random.choice(response)
+                            line.sendMessage(msg.to, respon + kontak.displayName)
+                        if "join" in text.lower():
+                            kontak = line.getContact(msg._from)
+                            response = ("join kemana ","join juga dicuekin kan ","klo udah join trs gimna ","dih join join mulu ","join apa ")
+                            respon = random.choice(response)
+                            line.sendMessage(msg.to, respon + kontak.displayName)
+                        if "emoh" in text.lower():
+                            kontak = line.getContact(msg._from)
+                            response = ("kok emoh sih ","mau dong ","jgn emoh gtu ","klo emoh paksa juga nih ","klo emoh yaudah deh gpp kok ")
+                            respon = random.choice(response)
+                            line.sendMessage(msg.to, respon + kontak.displayName)
+                        if "itu" in text.lower():
+                            kontak = line.getContact(msg._from)
+                            response = ("itu apaan ","itu yg mna ","oh itu ","itu apa ini ","itu kan aku juga tau ")
+                            respon = random.choice(response)
+                            line.sendMessage(msg.to, respon + kontak.displayName)
+                        if "naik" in text.lower():
+                            kontak = line.getContact(msg._from)
+                            response = ("naik kemana ","iya naik aj dulu ","ga asik naik enak di naikin ","bentar aku juga naik kok ","naikin terus ")
+                            respon = random.choice(response)
+                            line.sendMessage(msg.to, respon + kontak.displayName)
+                        if "udah" in text.lower():
+                            kontak = line.getContact(msg._from)
+                            response = ("udah apaan ","iya udah kok ","klo udah cebok gih ","ciee yg udahan ","udah udah udah ")
+                            respon = random.choice(response)
+                            line.sendMessage(msg.to, respon + kontak.displayName)
+                        if "sider" in text.lower():
+                            kontak = line.getContact(msg._from)
+                            response = ("sider bintitan ya ","yg sider semoga tenang ya ","yg sider mudah2an selamat ya ","siapa yg sider ","sider nya kaget ya ")
                             respon = random.choice(response)
                             line.sendMessage(msg.to, respon + kontak.displayName)
     except Exception as error:
@@ -207,7 +242,7 @@ def bot(op):
         if op.type == 59:
             print (op)
         
-#===========================PRANKBOTS SCRIPT===================#
+#===========================POKEMON SCRIPT===================#
 while True:
     try:
       ops=oepoll.singleTrace(count=50)
