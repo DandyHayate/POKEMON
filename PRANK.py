@@ -107,7 +107,7 @@ def bot(op):
                         prankbot = command(text)
                         if 'phie' in msg.text:
                             kontak = line.getContact(msg._from)
-                            response = ("ada apa kau memanggilku ","ya aku disini ","apakah kamu merindukanku ","ya aku selalu ada untukmu ","kenapa saudaraku ")
+                            response = ("ada apa kau memanggilku ","ya aku disini ","apakah kamu merindukanku ","ya aku selalu ada untukmu ","kenapa sih berisik lu ")
                             respon = random.choice(response)
                             line.sendMessage(msg.to, respon + kontak.displayName)
                         if "keluar" in text.lower():
@@ -123,12 +123,12 @@ def bot(op):
                             line.sendMessage(msg.to, respon + kontak.displayName)
                         if "siapa" in text.lower():
                             kontak = line.getContact(msg._from)
-                            response = ("selingkuhanmu mungkin ","sepertinya mantanmu ","ohh.. aku tidak tau ","sepertinya tikunganmu ","itu adalah kau ","jangan pura-pura gak tau ")
+                            response = ("selingkuhanmu mungkin ","sepertinya mantanmu ","ohh.. aku tidak tau ","sepertinya tikunganmu ","itu kan bojomu kok masih nanya siapa ","siapa sih ")
                             respon = random.choice(response)
                             line.sendMessage(msg.to, respon + kontak.displayName)
                         if "apa" in text.lower():
                             kontak = line.getContact(msg._from)
-                            response = ("aku tidak tau ","apanya yang kau mksud,yg jelas dong ","entahlah aku tak tau ","apa ini apa itu ","apa apa nya dong ")
+                            response = ("aku tidak tau ","apanya yang kau mksud,yg jelas dong ","entahlah aku tak tau ","apa apa bae dah ","apa apa nya dong ")
                             respon = random.choice(response)
                             line.sendMessage(msg.to, respon + kontak.displayName)
                         if "mana" in text.lower():
@@ -156,9 +156,9 @@ def bot(op):
                             response = ("paan lu manggil manggil ","oy hadir gan ","sekali lagi bilang bot gua cipok lu ","bot bot bot gundulmu lah ","bot mah bebas ")
                             respon = random.choice(response)
                             line.sendMessage(msg.to, respon + kontak.displayName)
-                        if "knapa" in text.lower():
+                        if "gila" in text.lower():
                             kontak = line.getContact(msg._from)
-                            response = ("gak tau ","gak knapa napa kok ","diem jgn tnya knpa ","kepo lu ","siapa yg knapa ")
+                            response = ("gila mah bebas ","lu yg gila ","gila drmna nya ","lah lu juga edan ","siapa yg gila ")
                             respon = random.choice(response)
                             line.sendMessage(msg.to, respon + kontak.displayName)
                         if "baper" in text.lower():
@@ -183,7 +183,7 @@ def bot(op):
                             line.sendMessage(msg.to, respon + kontak.displayName)
                         if "gw" in text.lower() or "aku" in text.lower():
                             kontak = line.getContact(msg._from)
-                            response = ("iya tau ","ada apa sih ","oh cuma bgitu doang ","aku juga dong ya ","hooh aku juga tau kok ")
+                            response = ("iya tau ","ada apa sih ","aku apa kamu ","aku juga dong ya ","hooh aku juga tau kok ")
                             respon = random.choice(response)
                             line.sendMessage(msg.to, respon + kontak.displayName)
                         if "kuy" in text.lower() or "ayo" in text.lower():
