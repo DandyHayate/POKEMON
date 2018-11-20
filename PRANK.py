@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 import time, random, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, ast
 _session = requests.session()
 translateen = []
-line = LINE("EzNsvhKnXh2kE1QAEQre.mDIRQD+WthuKlYOGL7ITRG.ECuNsVJ3VqFLUkeSZ+OWZiBW95o8FKCYR21R2ZqP1wk=")
+line = LINE()
 #line = LINE("ExQ6YuqVEg3zjMWlbvvb.Sp/s6yipA4kI8lGDz1Jc/W.0+6RGQEyRULTA9pbpJxcbf5IPIXqp5EKihUS7/I/J0w=")
 line.log("Auth Token : " + str(line.authToken))
 channelToken = line.getChannelResult()
